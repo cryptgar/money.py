@@ -1,4 +1,5 @@
 # money.py
+[![PyPI version](https://badge.fury.io/py/money.py.svg)](https://badge.fury.io/py/money.py)
 
 > money.py is a library to handle money
 
