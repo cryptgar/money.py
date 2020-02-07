@@ -1,6 +1,6 @@
 from setuptools import setup
 
-long_description = open('README.rst').read()
+long_description = open('README.md').read()
 
 
 def find_version(*file_paths):
