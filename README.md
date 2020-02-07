@@ -28,9 +28,9 @@ from moneypy import Money, EUR_CURRENCY
 a = Money(EUR_CURRENCY)
 b = Money(EUR_CURRENCY)
 
-a.add(2, 30) # 2.30€
-b.add(4, 4) # 4.4€
+a.add(2, 30) # 2.30
+b.add(4, 4) # 4.4
 
 a += b
-print(a) # 6.7€
+print(a) # 6.7
 ```
