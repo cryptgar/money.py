@@ -31,4 +31,4 @@ jobs:
       run: |
         pip install pytest pytest-cov pytest-xdist
         pytest --cov=moneypy
-        bash <(curl -s https://codecov.io/bash) 
+        bash <(curl -s https://codecov.io/bash) -t ${{ secrets.CODECOV_TOKEN }}
