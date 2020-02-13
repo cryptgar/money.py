@@ -29,6 +29,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pip install pytest pytest-cov pytest-xdist codecov
+        pip install pytest pytest-cov pytest-xdist
         pytest --cov=moneypy
-        codecov -t $CODECOV_TOKEN
+        bash <(curl -s https://codecov.io/bash) 
