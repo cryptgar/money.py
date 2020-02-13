@@ -1,6 +1,7 @@
 # money.py
 [![PyPI version](https://badge.fury.io/py/money.py.svg)](https://badge.fury.io/py/money.py)
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fcryptgar%2Fmoney.py%2Fbadge&style=flat)](https://actions-badge.atrox.dev/cryptgar/money.py/goto)
+[![codecov](https://codecov.io/gh/cryptgar/money.py/branch/master/graph/badge.svg)](https://codecov.io/gh/cryptgar/money.py)
 
 > money.py is a library to handle money
 
